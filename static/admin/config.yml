@@ -6,16 +6,7 @@ backend:
 media_folder: "admin/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
-media_library:
-  name: uploadcare
-  config:
-    publicKey: 64dbaf416d5308fd9da2
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
