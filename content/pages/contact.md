@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: /static/assets/seekpng.com_team-png-images_3613461.png
+featuredImage: /static/assets/manager-300x249.png
 subtitle: This is the contact page subtitle.
 address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
