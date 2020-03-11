@@ -3,8 +3,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 # These lines should *not* be indented
-media_folder: "/admin/images" # Media files will be stored in the repo under static/images/uploads
-
+media_folder: "/static/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: images
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
