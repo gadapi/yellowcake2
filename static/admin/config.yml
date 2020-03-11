@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 # These lines should *not* be indented
 media_folder: "/admin/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/admin/images" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 
 
